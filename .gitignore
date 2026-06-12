@@ -1,0 +1,10 @@
+# Block these raw/runtime directories
+dataset/
+malware_env/
+check_setup/
+
+# Allow these directories to pass (Do not list them here, Git tracks them by default)
+# Caches to block inside your notebooks/ and src/ folders
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
