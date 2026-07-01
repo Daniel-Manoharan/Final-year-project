@@ -1,0 +1,15 @@
+==================================================
+  DATASET OVERVIEW
+==================================================
+Total samples      : 8000
+Feature columns    : 114
+Malware samples    : 4000
+Benign samples     : 4000
+Missing values     : 0
+Duplicate rows     : 0
+
+Feature Statistics per Class:
+       entropy_mean  entropy_max  entropy_min  entropy_std  entropy_text_section  entropy_data_section  high_entropy_sections  entry_point_entropy  section_name_entropy  import_entropy
+label                                                                                                                                                                                   
+0          3.147890     5.856816     0.595810     1.918373              5.626321              2.052013                0.03200             4.887299              3.473080        4.181368
+1          4.841899     7.427270     2.002486     2.064403              6.051316              4.278679                1.03275             4.653255              3.253608        4.714359
